@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  items: any[] = [];
 
+  doSomething() {
+    this.items.push(0);
+  }
 }
